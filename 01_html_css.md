@@ -298,8 +298,10 @@
 
       grid-auto-flow: row / column / row dense;
 
-      justify-content:
-      align-content:
+      <!-- justify-content: -->
+      justify-items:
+      <!-- align-content: -->
+      align-items:
       }  
 
       {
@@ -373,24 +375,15 @@
   - .container-{breakpoint}, default is width: 100%
   ![图片alt](./pics/containers.png "图片title")
   
-- Grid System
-  1. container:
-    - width: 100%/breakpoint
-    - padding-right: 15px
-    - padding-left: 15px
-    - margin-right: auto
-    - margin-left: auto
-  2. row: 
-    - display: flex
-    - flex-wrap: wrap 
-    - margin-right: -15px 
-    - margin-left: -15px 
-  3. col:
-    - position: relative
-    - flex-grow: 1/ flex: 0 0 x%
-    - max-width: 100% / ma-width: x%
-    - padding-right: 15px
-    - padding-left: 15px
+- Grid System  
+  |Container|Row|Col|
+  |---|---|---|
+  |width: 100%/breakpoint|display: flex|position: relative|
+  |padding-right: 15px|flex-wrap: wrap|flex-grow: 1/ flex: 0 0 x%|
+  |padding-left: 15px|margin-right: -15px|max-width: 100% / ma-width: x%|
+  |margin-right: auto|margin-left: -15px |padding-right: 15px|
+  |margin-left: auto||padding-left: 15px|
+ 
     
 
 
@@ -404,3 +397,16 @@
 6. caniuse.com
 7. appbrwwery.github.io/flex-layout/
 8. css-tricks.com
+9. animates.css
+10. creative-tim.com
+11. mashup-template.com
+12. https://html5up.net/
+13. free-css.com 
+14. Templatemo.com
+15. startbootstrap.com/templates
+16. mdbootstrap.com/freebies
+17. mailchimp.com
+18. grid.malven.co
+19. nishit.xyz
+20. zero-to-mastery.github.io/ZtM-job-Board/
+
